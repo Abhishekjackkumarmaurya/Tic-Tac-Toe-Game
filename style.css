@@ -1,79 +1,136 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html,body{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    background-color: #ebc584;
-    overflow: hidden;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: #ebc584;
+  overflow: hidden;
 }
 
-#main{
-    width: 100%;
-    height: 100%;
-   
+#main {
+  width: 100%;
+  height: 100%;
 }
 
 #head-1 {
+  height: 68px;
+  width: 30vw;
+  margin-top: 20px;
+  font: 500;
+  font-size: 3vmax;
+  text-shadow: 2px 2px #f08e32;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url(./giphy.gif);
+  margin-left: 34.5vw;
+  object-fit: cover;
+  background-position: center;
+  background-size: 200px;
+}
+#msg {
+  font-size: 4rem;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+.container {
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5vh;
+}
+.box {
+  width: 18.5vmin;
+  height: 18.5vmin;
+  border-radius: 8px;
+  border: 0.7px dashed;
+  /* border: none; */
+
+  box-shadow: 6px 6px #f08e32;
+  color: red;
+  font-size: 5rem;
+  background-color: rgb(212, 205, 205);
+}
+#re-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  #head-1 {
     height: 68px;
     width: 30vw;
     margin-top: 20px;
     font: 500;
-    font-size: 3vmax;
-    text-shadow: 2px 2px #F08E32;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   background-image: url(./giphy.gif);
-   margin-left: 34.5vw;
-}
-#msg{
-    font-size: 4rem;
+    font-size: 2vmax;
+    text-shadow: 2px 2px #f08e32;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    background-image: url(./giphy.gif);
+    margin-left: 34.5vw;
+    object-fit: cover;
+    background-position: center;
+    background-size: 120px;
+  }
+  #msg {
+    font-size: 1.5rem;
     font-family: sans-serif;
     margin-top: 10px;
-}
-
-.container{
+  }
+  .container {
     height: 70vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.game{
-    height: 60vmin;
-    width: 60vmin;
+  }
+  .game {
+    height: 70vmin;
+    width: 70vmin;
     display: flex;
     align-items: center;
-
     justify-content: center;
     flex-wrap: wrap;
     gap: 1.5vh;
-}
-.box{
-    width: 18.5vmin;
-    height: 18.5vmin;
+  }
+  .box {
+    width: 20vmin;
+    height: 20vmin;
     border-radius: 8px;
     border: 0.7px dashed;
-    /* border: none; */
-    
-    box-shadow:6px 6px #F08E32;
+    box-shadow: 4px 4px #f08e32;
     color: red;
-    font-size: 5rem;
+    font-size: 2rem;
     background-color: rgb(212, 205, 205);
-}
-#re-btn{
-    height: 6vh;
-    width: 10vw;
-    font-size: 25px;
+  }
+  #re-btn {
+    padding: 5px 10px;
     border-radius: 8px;
     border: none;
-    font-size: 1.5rem;
-     font-family: sans-serif;
-     
-}
-.hide {
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+  .hide {
     display: none;
+  }
 }
-
