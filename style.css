@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #ebc584;
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+   
+}
+
+#head-1 {
+    height: 68px;
+    width: 30vw;
+    margin-top: 20px;
+    font: 500;
+    font-size: 3vmax;
+    text-shadow: 2px 2px #F08E32;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-image: url(./giphy.gif);
+   margin-left: 34.5vw;
+}
+#msg{
+    font-size: 4rem;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.container{
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5vh;
+}
+.box{
+    width: 18.5vmin;
+    height: 18.5vmin;
+    border-radius: 8px;
+    border: 0.7px dashed;
+    /* border: none; */
+    
+    box-shadow:6px 6px #F08E32;
+    color: red;
+    font-size: 5rem;
+    background-color: rgb(212, 205, 205);
+}
+#re-btn{
+    height: 6vh;
+    width: 10vw;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.5rem;
+     font-family: sans-serif;
+     
+}
+.hide {
+    display: none;
+}
+
